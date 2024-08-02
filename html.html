@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolioWebsite</title>
+    <link rel="stylesheet" href="./css.css">
+</head> 
+<body>
+    <div class="hero">
+    <nav>
+        <img src="" alt="" class="logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Details</a></li>
+          <!--  <li><a href="#hireme">Hire Me</a></li>  -->
+            
+        </ul>
+    </nav>
+    <div class="Home">
+        <h1>I am Riyasdeen <span>Java Full Stack Fresher</span></h1>
+        <p>This is my official portfolio website, where you can view all of my projects and details.
+        </p> 
+        <a href="https://drive.google.com/file/d/1-uq6QQVW2m2HCwSrzFKBqDhFbHJFDS-5/view?usp=drivesdk">Download CV</a>
+    </div>
+   
+
+<!-- About Section -->
+<section id="about" class="Home">
+    <h2>About Me</h2> <br>
+    <p>I have finished my engineering bachelor's degree. Within the Electronics and Communication Engineering stream Following that, I made the decision to pursue a career in software, and I decided to take a Java Full Stack course. <br> <br>I am Strong in design and integration with intuitive problem-solving skills. Proficient in Core Java( Oops - principle & concepts) Advance Java(JDBC, Servlet, Hibernate & Spring boot,MVC), SQL, SQL Server Query and Web Technology(Html Css & JS). Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.</p>
+</section>
+<br>
+<br>
+<br>
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <h2>Projects</h2>
+    <div class="portfolio-items">
+        <!-- Example Portfolio Item -->
+        <div class="portfolio-item"> <br>
+            <img src="project1.jpg" alt="Project I"> 
+            <h3> <span class="hi">ACADEMIC PROJECT</span> </h3> <h2>Design and Implementation of Smart ATM Security System using IoT</h2>
+            <p>Description: <br> Creating an IoT - Based security system for ATMs that integrates advanced
+                feature to ensure robust protection and user-friendly experience.</p>
+               <!-- <button class="view-button" onclick="window.location.href='';" >view</button> -->
+              <div>
+
+                <button class="view-button" onclick="openImage()">view</button>
+
+                <script>
+                    function openImage() {
+                        // Path to the local image file
+                        var imagePath = 'Demo/MyPortfolio/1722530101826.jpg'; // Replace with the path to your local image
+                        window.open(imagePath, '_blank');
+                    }
+                </script>
+
+              </div>
+        </div>
+        <div class="portfolio-item"> <br>
+            <img src="project2.jpg" alt="Project II">
+            <h3><span class="hi">FULL STACK PROJECT</span></h3> <h2>E Commerce Website</h2>
+            <p>Description: <br>This project involves the development of a comprehensive e-commerce website designed to provide users with a seamless online shopping experience. <br> The platform enables users to browse a wide range of products, add them to their shopping cart, and proceed to checkout.</p>
+        
+            <div>
+
+                <button class="view-button" onclick="openImagee()">view</button>
+
+                <script>
+                    function openImagee() {
+                        // Path to the local image file
+                        var imagePath = 'https://riyasmart.github.io/E-CommerceProject/'; // Replace with the path to your local image
+                        window.open(imagePath, '_blank');
+                    }
+                </script>
+<h5> <br>Soon,additional projects will be added!</h5>
+              </div>
+
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
+       <!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+        <div class="contact-item">
+            <h3>Email</h3>
+            <p><a href="smartriyas407@gmail.com">smartriyas407@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>Phone</h3>
+            <p><a href="+91 7397021819">+91 7397021819</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>Social Media</h3>
+            <p>
+                <a href="https://linkedin.com/in/riyasdeen-b-e-8a9906216" target="_blank">LinkedIn</a> |
+              <!--  <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> | -->
+                <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Riyasdeen A. All rights reserved.</p>
+</footer>
+
+   </div>
+</body>
+</html>
